@@ -7,7 +7,10 @@ root.Pages = ( ->
         true
 
   working = ->
-    console.log 'working'
+    Main.alerts('info', 'testing')
+    Main.alerts('error', 'testing')
+    Main.alerts('success', 'testing')
+    Main.alerts('warning', 'testing')
 
   { init: init }
 )()
