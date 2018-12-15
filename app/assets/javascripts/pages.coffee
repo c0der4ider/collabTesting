@@ -7,10 +7,7 @@ root.Pages = ( ->
         true
 
   working = ->
-    Main.alerts('info', 'testing')
-    Main.alerts('error', 'testing')
-    Main.alerts('success', 'testing')
-    Main.alerts('warning', 'testing')
+    true
 
   { init: init }
 )()
