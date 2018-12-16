@@ -11,4 +11,10 @@ module ApplicationHelper
     flash_messages.join("\n").html_safe
   end
 
+  def links_partial_path
+    if user_signed_in?
+    else
+    end
+  end
+
 end

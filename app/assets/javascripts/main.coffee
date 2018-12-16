@@ -1,6 +1,7 @@
 root = exports ? this
 root.Main = ( ->
   init = (layout) ->
+
     if layout == 'application'
       configure($(document))
 

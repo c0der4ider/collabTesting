@@ -42,6 +42,12 @@ group :development, :test do
 end
 
 group :development do
+  gem 'awesome_print', '~> 1.8'
+  gem 'better_errors', '~> 2.5'
+  gem 'pry', '~> 0.12.2'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-awesome_print'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
@@ -56,6 +62,12 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'rspec-rails', '~> 3.6'
+  gem 'factory_bot_rails'
+  gem 'rails-controller-testing'
+  gem 'headless'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
